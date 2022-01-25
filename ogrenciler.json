@@ -1,0 +1,29 @@
+[{
+  "_id": {
+    "$oid": "61ec634d64bfe7876ac98408"
+  },
+  "name": "celil",
+  "surname": "ozkaynak",
+  "alt": 34
+},{
+  "_id": {
+    "$oid": "61ec63aa64bfe7876ac9840a"
+  },
+  "adi": "mustafa",
+  "soyadi": "yaman",
+  "yas": 444
+},{
+  "_id": {
+    "$oid": "61ec63be64bfe7876ac9840b"
+  },
+  "name": "zeki",
+  "surname": "dal",
+  "alt": 74
+},{
+  "_id": {
+    "$oid": "61ec63fe64bfe7876ac9840c"
+  },
+  "name": "derya",
+  "surname": "kaynak",
+  "maas": 1000000
+}]
