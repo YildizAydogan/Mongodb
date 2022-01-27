@@ -1,0 +1,7 @@
+use("ULKELER")
+db.foods.find({"grades.score":{$gt:90}},{grades:1,_id:0,name:1})
+
+
+
+use("ULKELER")
+db.foods.find({"grades.score":{$gt:80,$lt:150}},{grades:1,_id:0,name})
