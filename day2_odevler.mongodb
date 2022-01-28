@@ -1,8 +1,14 @@
 //1) 90'ın üzerinde puan(score) alan restoranları bulmak için bir MongoDB sorgusu yazın 
 use("ULKELER");
 db.foods.find({  "grades.score":{$gt:90}},{"grades.score":1,_id:0,name:1});
+
+
+db.foods.find({ "grades.score" : {$gt:90} }, {"grades.$":1, _id:0,name:1})
+
 use("ULKELER");
 db.foods.find({  "grades.score":{$gt:90}},{"grades.score":1,_id:0,name:1});
+
+
 //2.yol
 use("ULKELER");
 db.foods.find({grades : { $elemMatch:{"score":{$gt : 90}}}}, {borough:1,cuisine:1,grades:1,_id:0}  );
